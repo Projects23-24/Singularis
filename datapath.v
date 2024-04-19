@@ -22,7 +22,6 @@
 
 module datapath(
     input reset,
-    
     input button,
     input [7:0] input_instruction,
     input clk, clk_enable,
@@ -31,7 +30,8 @@ module datapath(
     input [1:0] data_to_reg,
     output reg [15:0] display_output,
     output [4:0] opcode,
-    output [1:0] type
+    output [1:0] type,
+    output [15:0] led_ins
     );
     
     reg  [5:0] pc_current;
@@ -61,7 +61,7 @@ module datapath(
     
     instruction_memory InstructionMemory(clk_enable, reset,clk,
         input_instruction,button,pc_current,
-        instruction);
+        instruction, led_ins);
     
     assign opcode = instruction[13:9];
     assign type = instruction[15:14];
