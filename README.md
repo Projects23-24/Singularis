@@ -51,3 +51,8 @@
 #### 10111: DISPLAY DATA MEMORY (Type(2) Opcode(5) M0(6) Rest of the bits don't care) Displays the value inside data memory M0
 #### 11000: DISPLAY BOOL (Type(2) Opcode(5) Rest of the bits don't care) Displays the value of Bool flag.
 #### 11001: DISPLAY PC_CURRENT (Type(2) Opcode(5) Rest of the bits don't care) Displays the value of the program counter.
+
+#Contributors
+Adweit Singh Chaudhary
+Aryan Gupta
+Soumya Gupta (Mentor)
