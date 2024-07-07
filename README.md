@@ -53,6 +53,6 @@
 #### 11001: DISPLAY PC_CURRENT (Type(2) Opcode(5) Rest of the bits don't care) Displays the value of the program counter.
 
 # Contributors
-Adweit Singh Chaudhary
-Aryan Gupta
-Soumya Gupta (Mentor)
+### Adweit Singh Chaudhary
+### Aryan Gupta
+### Soumya Gupta (Mentor)
